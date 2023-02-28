@@ -6,14 +6,20 @@ G4Coil is a project to create a Coil like structure and testing it's scintillati
 1.) Without the fast_build.sh
 
 mkdir build
+
 cd build
+
 cmake ..
+
 make -jN               N="Number of Threads on your computer"
+
 ./G4Coil
 
 /run/beamOn N          N="Number of Event" "This step is also done when the program is running"
 
+
 2.) With the fast_build.sh
+
 . fast_build.sh
 
 This will setup everything and run the simulation automatically. You change the run pararmeters in the file "/project_scripts/batch.mac" .
