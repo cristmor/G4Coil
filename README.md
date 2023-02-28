@@ -11,11 +11,11 @@ cd build
 
 cmake ..
 
-make -jN               N="Number of Threads on your computer"
+make -jN    ,N="Number of Threads on your computer"
 
 ./G4Coil
 
-/run/beamOn N          N="Number of Event" "This step is also done when the program is running"
+/run/beamOn N   ,N="Number of Event" "This step is also done when the program is running"
 
 
 2.) With the fast_build.sh
